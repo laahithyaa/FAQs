@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+ 
+  <style>
+    body{
+      background-image:url(assets/images/background-pattern-desktop.svg);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color:rgb(236, 219, 194);
+    }
+    #container{
+      background-color: rgb(255, 253, 253);
+      width:30%;
+      height: 25vw;
+      margin-top: 6%;
+      border-radius: 10px;
+      padding: 25px;
+    }
+    #faq{
+      text-align: left;
+     
+    }
+    h2{
+      display: inline;
+      margin-left: 10px;
+      font-size: 40px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    star{
+      height: 30px;
+    }
+    h6{
+      display: inline;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 12px;
+    }
+   
+    p{
+      color: rgb(143, 143, 143);
+      font-size: 12px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .que{
+      padding-top: 10px;
+      margin-top: 25px;
+    }
+    .head:hover{
+      color: blueviolet;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <div id="container">
+      <div id="faq">
+        <img id="star" src="assets/images/icon-star.svg" >
+        <h2>FAQs</h2>
+        <div class="que">
+        <h6>What is Frontend Mentor,and how will it help me?</h6>
+        <img class="icon" align="right" src="assets/images/icon-minus.svg" >
+        <p>Frontend Mentor offers realistic coding challenges to help 
+          developers improve their frontend coding skills with projects
+          in HTML,CSS and JavaScript.It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+        </div>
+        <div class="que">
+          <h6 class="head" >Is frontend Mentor free?</h6>
+          <img class="icon" align="right" src="assets/images/icon-plus.svg"> 
+        </div> 
+        <div class="que">
+          <h6 class="head">Can I use Frontend mentor projects in my portfolio?</h6>
+          <img class="icon" align="right" src="assets/images/icon-plus.svg"> 
+        </div>
+        <div class="que">
+          <h6 class="head">How can i get help if i'm stuck on my challenge?</h6>
+          <img class="icon" align="right" src="assets/images/icon-plus.svg">
+        </div>
+    </div>
+  </center>
+ 
+
+ 
+  
+  
+</body>
+</html>
